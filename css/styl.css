@@ -1,0 +1,682 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'M-R';
+    scroll-behavior: smooth;
+    transition: .5s;
+}
+
+@font-face {
+    font-family: 'M-R';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'K';
+    src: url(../fonts/KyivTypeSerif-VarGX.ttf);
+}
+.ky {
+    font-family: 'K';
+}
+.cont{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* header */
+
+header {
+    background-color: #006BCE;
+    height: 120px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    font-size: 24px;
+}
+
+
+
+.header h3 {
+    font-size: 40px;
+}
+.footer h3 {
+    font-size: 40px;
+}
+
+.iconss {
+    display: flex;
+    gap: 27px;
+}
+
+.iconss img {
+    height: 30px;
+}
+
+.p_v {
+    padding-top: 85px;
+}
+
+.p_n {
+    padding-bottom: 65px;
+}
+
+/* header end */
+
+/* banner */
+
+.bg2 {
+    background:  linear-gradient(0deg, rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/banner.jpg);
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+
+.banner h2 {
+    color: white;
+    font-size: 24px;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ban {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    position: absolute;
+    right: 420px;
+    top: 260px;
+}
+
+.btn {
+    font-size: 24px;
+    color: white;
+    background-color: unset;
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 12px 36px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    transition: all .5s ease-in-out;
+}
+
+/* banner end */
+
+/* katalog */
+
+.kat h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.k_item {
+    width: 310px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+}
+
+.k_item img {
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.k_item .d {
+    font-size: 18px;
+    padding-top: 12px;
+    margin-left: 30px;
+    color: black;
+}
+
+.k_item h3 {
+    font-size: 22px;
+    padding-top: 14px;
+    margin-left: 30px;
+    color: black;
+}
+
+.cena {
+    display: flex;
+    align-items: center;
+    gap: 135px;
+    padding: 30px 0;
+    margin-left: 30px;
+}
+
+.cena p {
+    font-size: 18px;
+    color: black;
+}
+
+.btn1 {
+    border: 1px solid #006BCE;
+    background-color: #006BCE;
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    width: 250px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.btn1:hover {
+    border: 1px solid #006BCE;
+    background-color: unset;
+    cursor: pointer;
+    color: black;
+    transition: all .5s ease-in-out;
+}
+
+.tre {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+/* katalog end */
+
+/* kontakt */
+
+.kont h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.kont_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.kont {
+    margin-bottom: 100px;
+}
+
+.opis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+.opis p,a {
+    font-size: 24px;
+    color: black;
+}.opis a {
+    font-size: 24px;
+    color: black;
+}
+
+.karta img {
+    width: 500px;
+    height: 400px;
+}
+
+/* kontakt end */
+
+/* footer */
+
+footer {
+    background-color: #006BCE;
+    height: 300px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+
+.footer h3 {
+    color: white;
+}
+
+.footer .opis p,a {
+    color: white;
+}
+.footer .opis a {
+    color: white;
+}
+
+/* footer end */
+
+/* odin tovar */
+
+.krosh {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 7px;
+    padding-top: 30px;
+}
+
+.krosh p {
+    font-size: 14px;
+}
+
+.otovar {
+    display: flex;
+    justify-content: left;
+    gap: 59px;
+    flex-direction: column;
+}
+
+.otovar p {
+    font-size: 20px;
+}
+
+.otovar h3 {
+    font-size: 24px;
+}
+
+
+.cen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.cen p {
+    font-size: 20px;
+}
+
+.odin_txt {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.odin {
+    display: flex;
+    gap: 250px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.odin img {
+    width: 500px;
+    height: 500px;
+}
+
+.btn2 {
+    width: 250px;
+    height: 35px;
+    background-color: #006BCE;
+    border: 2px solid #006BCE;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn2:hover {
+    background-color: unset;
+    border: 2px solid #006BCE;
+    transition: all .4s ease-in-out;
+    color: black;
+}
+
+/* odin end  */
+
+/* reg */
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 100px;
+}
+
+input {
+    background-color: unset;
+    border: 2px solid #006BCE;
+    padding: 10px 15px; 
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.er:hover {
+    cursor: pointer;
+    background-color: #006BCE;
+    color: white;
+    transition: all .4s ease-in-out;
+}
+.voyti {
+    color: black;
+    font-size: 12px;
+    text-align: center;
+}
+.voyti:hover {
+    scale: 1.1;
+    transition: all .3s ease-in-out;
+}
+
+/* reg end */
+
+/* admin */
+
+.admin {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+
+.left {
+    width: 300px;
+    height: 900px;
+}
+
+.verh {
+    width: 300px;
+    height: 100px;
+    background-color: #D9D9D9;
+    color: white;
+    text-align: center;
+}
+
+.verh h3 {
+    padding-top: 26px;
+    font-size: 40px;
+}
+
+.niz {
+    background-color: #006BCE;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 172px;
+    height: 860px;
+}
+
+hr {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.p9 {
+    padding-bottom: 19px;
+    font-size: 32px;
+}
+.p1 {
+    padding-top: 11px;
+}
+
+.btn3 {
+    border: 1px solid #006BCE;
+    background-color: #006BCE;
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.btn3:hover {
+    border: 1px solid #006BCE;
+    background-color: unset;
+    cursor: pointer;
+    color: black;
+    transition: all .5s ease-in-out;
+}
+
+.right h2 {
+    text-align: center;
+
+}
+.hh {
+    padding-bottom: 180px;
+}
+
+.asd {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 62px;
+    margin-left: 65px;
+}
+
+.dobv {
+    display: flex;
+    flex-direction: column;
+}
+
+.k_item1 {
+    width: 310px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+}
+
+.k_item1 img {
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.k_item1 .d {
+    font-size: 18px;
+    padding-top: 12px;
+    margin-left: 30px;
+    color: black;
+}
+
+.k_item1 h3 {
+    font-size: 22px;
+    padding-top: 14px;
+    margin-left: 30px;
+    color: black;
+}
+
+.cena {
+    display: flex;
+    align-items: center;
+    gap: 135px;
+    padding: 30px 0;
+    margin-left: 30px;
+}
+
+.cena p {
+    font-size: 18px;
+    color: black;
+}
+
+.del {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 200px;
+}
+
+.del h1 {
+    font-size: 32px;
+}
+.del h2 {
+    font-size: 24px;
+}
+
+.btn4 {
+    border: 2px solid #006BCE;
+    background-color: #006BCE;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn4:hover {
+    border: 2px solid #006BCE;
+    background-color: unset;
+    color: black;
+}
+.knopki {
+    display: flex;
+    gap: 20px;
+}
+
+#burger, [for=burger] {
+    display: none;
+}
+
+@media (max-width:430px) {
+    [for=burger] {
+        display: block;
+        position: absolute;
+        width: 30px;
+        top: 40px;
+        right: 25px;
+    }
+
+    [for=burger]::before {
+        content: '≡';
+        font-size: 25px;
+    }
+
+    #burger:checked + label + nav {
+        display: block;
+        animation: show .5s;
+        flex-direction: column;
+    }
+
+
+    #burger:checked + [for=burger]::before {
+        content: 'Ⅹ';
+        font-size: 25px;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        width: 40%;
+        left: 5px;
+        top: 10px;
+        background-color: #006BCE;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .iconss {
+        display: none;
+    }
+
+    .header h3 {
+        font-size: 24px;
+        padding-top: 10px;
+    }
+
+    .cont {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .tre {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .kont_item {
+        flex-wrap: wrap;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+
+    .karta img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .ban {
+        right: 40px;
+        top: 50px;
+    }
+
+    .bg2 {
+        height: 300px;
+        width: 430px;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .odin {
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+
+    .odin img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .admin {
+        flex-wrap: wrap;
+    }
+
+    .left {
+        width: 430px;
+    }
+
+    .verh {
+        width: 430px;
+    }
+
+    .del h1 {
+        font-size: 24px;
+    }
+    .del h2 {
+        font-size: 20px;
+    }
+}
