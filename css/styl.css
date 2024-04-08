@@ -595,7 +595,7 @@ hr {
         display: none;
         position: absolute;
         width: 40%;
-        left: 5px;
+        left: 0;
         top: 10px;
         background-color: #006BCE;
         padding: 5px;
